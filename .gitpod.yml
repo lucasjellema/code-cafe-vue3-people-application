@@ -1,5 +1,7 @@
 tasks:
-  - name: Open README 
+  - name: Install npm dependencies (particularly Vite)
+    init: npm install
+  - name: Open README
     command: gp open README.md
 
 ports:
