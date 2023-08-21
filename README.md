@@ -1,4 +1,4 @@
-# code-cafe-vue3-people-application
+# Publish Vue application on GitHub Pages 
 Simple Vue 3 application with Pinia for state, Primevue for UI components
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lucasjellema/code-cafe-vue3-people-application)
@@ -12,7 +12,7 @@ npm run dev
 ```
 
 ## To publish as GitHub Pages
-(these instructions are inspired by: https://mkay11.medium.com/how-to-deploy-your-vite-vue-3-application-in-github-pages-2023-2b842f50576a)
+(these instructions are inspired by: https://mkay11.medium.com/how-to-deploy-your-vite-vue-3-application-in-github-pages-2023-2b842f50576a). For more details about the npm package *gh-pages* check out [its homepage](https://github.com/tschaub/gh-pages).
 
 Note: *you can only publish a GitHub Pages project in your own repository. So in order to be successful at these instructions, make sure that you have forked the GitHub repository and opened the Gitpod workspace for your fork.*
 
@@ -72,3 +72,10 @@ https://github.com/YOUR_GITHUB_USERNAME/NAME_OF_REPOSITORY/settings/pages
 The application runs as it did before - at a publicly accessible URL:
 ![](images/vue-app-live-as-gh-pages.png)
 
+To learn a little bit more about what happened when you performed deployment, you can checkout the GitHub repository. First of all, you will see that your repository now has one additional branch - called *gh-pages*. This branch contains a folder *assets*. This folder contains the product of the build actions performed by `npm run deploy`.  
+![](images/github-repo-gh-pages.png) 
+
+When you check under *Actions* you will find that a GitHub Actions workflow has been created and executed to turn the Vue sources into a GitHub Pages application.
+![](images/github-actions-publish-ghpages.png)
+
+You can drill down into each of the steps in the flow to learn more details. 
