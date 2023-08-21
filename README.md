@@ -18,7 +18,7 @@ Note: *you can only publish a GitHub Pages project in your own repository. So in
 
 In the terminal run this command:
 ```
-npm install gh-pages
+npm install gh-pages --save-dev
 ```
 
 add in package.json:
