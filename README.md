@@ -1,6 +1,13 @@
 # Publish Vue application on GitHub Pages 
 Simple Vue 3 application with Pinia for state, Primevue for UI components
 
+## Run in StackBlitz
+To open and run the application in StackBlitz - a development environment composed of VS Code, Node, npm and Vite.js completely running in your browser inside a WASM powered WebContainer:  
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/lucasjellema/code-cafe-vue3-people-application?file=src%2FApp.vue&terminal=dev)
+Note: you can edit the application and any change is hot reloaded. 
+
+## Run in Gitpod
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lucasjellema/code-cafe-vue3-people-application)
 
 If you click on the button, you are prompted to launch a Gitpod workspace using a GitHub based authentication.
